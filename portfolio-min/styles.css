@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Amatic+SC:wght@700&family=Hubballi&family=Libre+Baskerville&family=Nunito&family=Poiret+One&family=Press+Start+2P&display=swap');
+
+
+.brand-text {
+  font-size: 1.5rem;
+  font-family: 'Akshar', sans-serif;
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'Hubballi', cursive; */
+  /* font-family: 'Libre Baskerville', serif; */
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Poiret One', cursive; */
+  /* font-family: 'Press Start 2P', cursive; */
+}
+
+.sub-brand-text {
+  font-size: 1.5rem;
+  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Hubballi', cursive; */
+  /* font-family: 'Press Start 2P', cursive; */
+}
+
+
+
+html,
+body {
+  font-family: 'Hubballi', sans-serif;
+  background: #f7f7f7;
+}
+
+/*Sticky navbar*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/*Cursor*/
+.pointer {
+  cursor: pointer;
+}
+
+.default {
+  cursor: default;
+}
+
+/*Text Size*/
+.ft-10 {
+  font-size: 10px !important;
+}
+
+.ft-12 {
+  font-size: 12px !important;
+}
+
+.ft-14 {
+  font-size: 14px !important;
+}
+
+.ft-16 {
+  font-size: 16px !important;
+}
+
+.ft-18 {
+  font-size: 18px !important;
+}
+
+.ft-20 {
+  font-size: 20px !important;
+}
+
+.ft-24 {
+  font-size: 24px !important;
+}
+
+.ft-32 {
+  font-size: 32px !important;
+}
+
+.ft-36 {
+  font-size: 36px !important;
+}
+
+.ft-50 {
+  font-size: 50px !important;
+}
+
+.ft-72 {
+  font-size: 72px !important;
+}
+
+/*Text Font*/
+.ft-literata {
+  font-family: 'Literata', serif;
+}
+
+.ft-hub {
+  font-family: 'Hubballi', serif !important;
+}
+
+.ft-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.ft-roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ft-helvetica {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.ft-arial {
+  font-family: 'Arial', sans-serif;
+}
+
+/*Coloring*/
+
+/*Text Colors*/
+.text-black {
+  color: black
+}
+
+.text-success-dk {
+  color: #005312;
+}
+
+.text-success-lt {
+  color: #A5EDB5;
+}
+
+/*Background Color*/
+.bg-black {
+  background-color: black
+}
+
+.bg-success-dk {
+  background-color: #005312;
+}
+
+.bg-success-lt {
+  background-color: #A5EDB5;
+}
+
+/*Borders*/
+.bd-success-dk {
+  border-color: #005312;
+}
+
+.bd-success-lt {
+  border-color: #A5EDB5;
+}
+
+
+/*Animations*/
+.hvr-btn:hover {
+  transform: scale(1.05);
+}
+
+/*Effects*/
+.hide {
+  display: none;
+}
+
+.no-opac {
+  opacity: 0;
+}
+
+.site-0,
+.site-1,
+.site-2,
+.site-3,
+.site-4,
+.site-5,
+.site-6,
+.site-7 {
+  background-color: white;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.site-0 {
+  background-image: url("img/RHDO2.png");
+}
+
+.site-1 {
+  background-image: url("img/RACIcon4.png");
+}
+
+.site-2 {
+  background-image: url("template1/assets/images/maxime-le-conte-des-floris-151374-unsplash.jpg");
+}
+
+.site-3 {
+  background-image: url("template2/images/greenstonewalltall.jpeg");
+}
+
+.site-4 {
+  background-image: url("template3/assets/img/website_example.jpeg");
+}
+
+.site-5 {
+  background-image: url("img/color_computer_desk_journal.jpeg");
+}
+
+.site-6 {
+  background-image: url("template5/img/factotum_logo_main.jpg");
+}
+
+.site-7 {
+  background-color: white;
+  background-image: url("img/dl_favicon_sm.jpg");
+}
+
+.joe-jumbo {
+  background-image: url("img/desk.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
